@@ -1,0 +1,52 @@
+body {
+	background-color: #F8F8F8;
+}
+.header {
+	margin-top: 50px;
+	text-align: center;
+}
+.header-top span {
+	display: inline-block;
+    background-color: #339999;
+    width: 5%;
+    height: 3px;
+    margin-top: 25px;
+}
+
+.header-top h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: arial;
+}
+
+.menu ul {
+	display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.menu ul li {
+	color: #555555;
+	padding-right: 20px;
+}
+
+
+.course-product {
+	width: 78%;
+	margin: auto;
+	margin-top: 65px;
+}
+
+.course-product ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course-product ul li {
+	background-color: #9ACC77;
+	padding: 120px 80px;
+	margin: 10px;
+	color: white;
+	font-size: 40px;
+}
